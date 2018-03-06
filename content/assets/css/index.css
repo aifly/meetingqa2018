@@ -383,6 +383,35 @@
       width: 100%; }
       .zmiti-content-main-ui .zmiti-dangjian-result-page .zmiti-dangjian-result-btn span {
         margin: 0 10px; }
+  .zmiti-content-main-ui .zmiti-team-btn {
+    color: #f1f0c0;
+    width: 3rem;
+    height: 1rem;
+    text-decoration: underline;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .5rem;
+    line-height: 1rem; }
+  .zmiti-content-main-ui .zmiti-team-C {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000; }
+    .zmiti-content-main-ui .zmiti-team-C > div {
+      width: 9rem;
+      margin: 20vh auto 1rem; }
+    .zmiti-content-main-ui .zmiti-team-C .zmiti-back1 {
+      background: #fff;
+      color: #f00;
+      width: 3rem;
+      text-align: center;
+      font-size: .5rem;
+      height: 1rem;
+      line-height: 1rem;
+      margin: 1rem auto;
+      border-radius: 10px; }
   .zmiti-content-main-ui .zmiti-team1 {
     height: 0; }
   .zmiti-content-main-ui .zmiti-team {

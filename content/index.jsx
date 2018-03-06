@@ -25,6 +25,7 @@ class ZmitiContentApp extends Component {
 			currentAnswer: [],
 			clock: 0,
 			result: '',
+			showTeam: false,
 			iNow: -1,
 			scale: 0
 		};
@@ -153,16 +154,25 @@ class ZmitiContentApp extends Component {
 			</div>	
 			</div>
 
-			<div className='zmiti-team'>总策划：刘思扬</div>
-			<div className='zmiti-team1'></div>
-			<div className='zmiti-team'>出品：陈凯星 冯瑛冰</div>
-			<div className='zmiti-team'>监制：齐慧杰 孙爱东</div>
-			<div className='zmiti-team'>统筹：黄庆华 曹晓轩</div>
-			<div className='zmiti-team'>试题：王谦 班和平 苏蕾 常琳</div>
-			<div className='zmiti-team1'></div>
-			<div className='zmiti-team'>编辑：孔唯千 侯帮兴 王丹</div>
-			<div className='zmiti-team1'></div>
-			<div className='zmiti-team'>联合制作：新华社客户端 半月谈杂志社</div>
+			<div className='zmiti-team-btn' onTouchTap={this.showTeams.bind(this)}>制作团队</div>
+			{this.state.showTeam && <div className='zmiti-team-C' style={{background:"#fff url(./assets/images/bg1.jpg) no-repeat center center / cover"}}>
+				<div>
+					<div className='zmiti-team'>总策划：刘思扬</div>
+					<div className='zmiti-team1'></div>
+					<div className='zmiti-team'>出品：陈凯星 冯瑛冰</div>
+					<div className='zmiti-team'>监制：齐慧杰 孙爱东</div>
+					<div className='zmiti-team'>统筹：黄庆华 曹晓轩</div>
+					<div className='zmiti-team'>试题：王谦 班和平 苏蕾 常琳</div>
+					<div className='zmiti-team1'></div>
+					<div className='zmiti-team'>编辑：孔唯千 侯帮兴 王丹</div>
+					<div className='zmiti-team1'></div>
+					<div className='zmiti-team'>联合制作：新华社客户端 半月谈杂志社</div>
+
+					<div className='zmiti-back1' onTouchTap={this.closeTeam.bind(this)}>
+						返回
+					</div>
+				</div>
+			</div>}
 
 			<div className='zmiti-copyright' hidden>新华社客户端<span style={{opacity:0}}>新</span>半月谈杂志社联合出品</div>
 			</div>
@@ -193,6 +203,18 @@ class ZmitiContentApp extends Component {
 				showKeyboard: false
 			})
 		}
+	}
+
+	closeTeam() {
+		this.setState({
+			showTeam: false
+		})
+	}
+
+	showTeams() {
+		this.setState({
+			showTeam: true
+		})
 	}
 
 
@@ -340,28 +362,31 @@ class ZmitiContentApp extends Component {
 			setTimeout(() => {
 				var scale = (Math.random() * 90 | 0) + 10;
 				var s = this;
-				console.log(this.state.rightAnswerCount);
-				if (s.state.rightAnswerCount === 50) {
+				if (s.state.rightAnswerCount === 30) {
 					scale = 99;
 
-				} else if (s.state.rightAnswerCount > 45) {
+				} else if (s.state.rightAnswerCount > 25) {
 
-					scale = (Math.random() * 4 | 0) + 95;
-
-				} else if (s.state.rightAnswerCount > 40) {
-
-					scale = (Math.random() * 5 | 0) + 90;
-
-				} else if (s.state.rightAnswerCount > 30) {
-
-					scale = (Math.random() * 20 | 0) + 70;
+					scale = (Math.random() * 8 | 0) + 90;
 
 				} else if (s.state.rightAnswerCount > 20) {
 
-					scale = (Math.random() * 20 | 0) + 50;
+					scale = (Math.random() * 10 | 0) + 80;
+
+				} else if (s.state.rightAnswerCount > 15) {
+
+					scale = (Math.random() * 20 | 0) + 60;
+
+				} else if (s.state.rightAnswerCount > 10) {
+
+					scale = (Math.random() * 20 | 0) + 40;
+
+				} else if (s.state.rightAnswerCount > 5) {
+
+					scale = (Math.random() * 20 | 0) + 20;
 
 				} else {
-					scale = (Math.random() * 46 | 0) + 4;
+					scale = (Math.random() * 10 | 0) + 10;
 				}
 
 				var ss = scale;

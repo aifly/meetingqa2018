@@ -402,15 +402,15 @@
 	"wxauthurl": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5ec3d35069383211&redirect_uri=http%3A%2F%2Fapi.zmiti.com%2Fzmiti_ele%2Fcompany%2Fmafazhan%2Fworks%2F1359526489%2F&response_type=code&scope=snsapi_userinfo&state=state#wechat_redirect",
 	"bgSound": "",
 	"questionType": "single",
-	"totalScore": 30,
+	"totalScore": 50,
 	"level": [{
-		"score": 30,
+		"score": 50,
 		"name": "特级"
 	}, {
-		"score": 20,
+		"score": 35,
 		"name": "高级"
 	}, {
-		"score": 10,
+		"score": 20,
 		"name": "中级"
 	}, {
 		"score": 5,
