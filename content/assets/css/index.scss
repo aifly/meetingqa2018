@@ -1,0 +1,510 @@
+﻿@import "../../../assets/css/base.scss";
+$viewW: 640px;
+
+.zmiti-content-main-ui {
+  width: $viewW;
+  height: 100vh;
+  @include pos(a);
+  left: 0;
+  top: 0;
+  z-index: 10;
+  @include transform(translate3d($viewW, 0, 0));
+  @include transition(.4s);
+
+  &.show {
+    @include transform(translate3d(0, 0, 0));
+  }
+
+  &.hide {
+    @include transform(translate3d(-$viewW, 0, 0));
+  }
+
+  .zmiti-dangjian-content-user {
+    @include transition(.4s);
+
+    &.hide {
+      @include transform(translate3d(-$viewW, 0, 0) scale(.85));
+    }
+
+    @include displayBox(vertical);
+
+    .zmiti-dangjian-content-cover {
+      height: 50vh;
+      width: 500px;
+      background: rgba(255, 255, 255, .8);
+      @include pos(r);
+      @include displayBox(horizontal);
+
+      &:before {
+        content: "";
+        @include pos(a);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        @include br(10px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+      }
+
+      .zmiti-dangjian-clock {
+        width: 70px;
+        margin: 4vh auto 2vh;
+      }
+
+      .zmiti-dangjian-content-input {
+        border-bottom: 2px solid #ccc;
+        height: 60px;
+        line-height: 70px;
+        margin: 40px auto;
+        width: 450px;
+
+        input, div {
+          overflow: hidden;
+          border: none;
+          box-sizing: border-box;
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          padding-left: 80px;
+          background: transparent;
+          -webkit-appearance: none;
+          @include pos(a);
+          left: 0;
+          top: 6px;
+          font-size: 26px;
+          color: #ccc;
+        }
+
+        label {
+          font-size: 30px;
+          color: #999;
+        }
+
+        @include pos(r);
+      }
+
+      .zmiti-dangjian-all-duration {
+        text-align: center;
+        color: #aaa;
+      }
+
+    }
+
+    .zmiti-begin-answer-btn {
+      margin-top: 5vh;
+      font-size: 42px;
+      @include transition(.1s);
+      background: #999;
+      @include br(10px);
+
+      &.active {
+        background: #b58f4e;
+      }
+
+      &.tap {
+        @include transform(translate3d(0, 4px, 0) scale(.99));
+      }
+
+    }
+
+  }
+
+  .zmiti-dangjian-question-C {
+    @include transform(translate3d($viewW, 0, 0) scale(.8));
+    @include transition(.4s);
+
+    &.active {
+      @include transform(translate3d(0, 0, 0));
+    }
+
+    &.hide {
+      @include transform(translate3d(-$viewW, 0, 0));
+    }
+
+    header {
+      width: $viewW;
+      margin: 0 auto;
+      height: 70px;
+      line-height: 70px;
+      background: #fff;
+      text-align: right;
+      @include pos(r);
+
+      &:before {
+        content: '';
+        z-index: 100;
+        @include pos(a);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0  0  10px rgba(0, 0, 0, .5)
+      }
+
+      span {
+        color: #ffe270;
+        font-size: 30px;
+        margin: 0 20px;
+      }
+
+      img {
+        width: 40px;
+        @include pos(r);
+        top: -6px;
+      }
+
+    }
+
+    .zmiti-dangjian-q-scroll {
+      color: #b58f4e;
+
+      &.left {
+        @include transform(translate3d(-$viewW, 0, 0) scale(.8));
+        @include transition(.35s);
+        z-index: 1;
+
+        .iScrollVerticalScrollbar {
+          display: none !important;
+        }
+
+      }
+
+      &.active {
+        @include transform(translate3d(0, 0, 0));
+        @include transition(.2s);
+        z-index: 32;
+      }
+
+      &.right {
+        @include transform(translate3d($viewW, 0, 0)  scale(.8));
+        z-index: 3;
+      }
+
+      width: $viewW;
+      overflow: hidden;
+      @include pos(a);
+      top: 70px;
+      box-sizing: border-box;
+    }
+
+    .zmiti-dangjian-q-title {
+      width: 90%;
+      margin: 100px auto;
+      background: rgba(255, 255, 255, .8);
+      background: #f1f0c0;
+      @include br(10px);
+
+      &:before {
+        content: '';
+        @include pos(a);
+        width: 100%;
+        height: 100%;
+        @include br(10px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+      }
+
+      font-size:30px;
+      line-height: 50px;
+
+      &>span {
+        color: #b58f4e;
+        font-size: 24px;
+        @include pos(a);
+        top: -44px;
+      }
+
+      box-sizing: border-box;
+      @include pos(r);
+
+      article>div {
+        padding: 80px 30px 40px 30px;
+      }
+
+      .zmiti-q-title1 {
+        @include pos(a);
+        width: 120px;
+        bottom: -80px;
+        right: 10px;
+      }
+
+      .zmiti-dangjian-pager {
+        width: 150px;
+        height: 150px;
+        @include br(50%);
+        @include pos(a);
+        top: -75px;
+        left: 50%;
+        margin-left: -75px;
+        background: #f1f0c0;
+        border: 1px dashed #c33b31;
+
+        .zmiti-q-title {
+          @include pos(a);
+          left: -100px;
+          top: -30px;
+          width: 140px;
+        }
+
+        &:before {
+          content: '';
+          @include pos(a);
+          height: 80%;
+          top: 12%;
+          left: 55%;
+          @include transform(rotate(40deg));
+          width: 1px;
+          background: #999;
+        }
+
+        span {
+          font-family: Georgia;
+          @include pos(a);
+
+          &:nth-of-type(1) {
+            color: #c33b31;
+            font-size: 70px;
+            left: 9px;
+            width: 70px;
+            text-align: center;
+            top: 25px;
+          }
+
+          &:nth-of-type(2) {
+            color: #c33b31;
+            font-size: 40px;
+            right: 14px;
+            bottom: 30px;
+            width: 70px;
+            text-align: center;
+          }
+
+        }
+
+      }
+
+    }
+
+    .zmiti-dangjian-q-answer-list {
+      width: 90%;
+      margin: 70px auto;
+
+      .zmiti-dangjian-q-item {
+        background: rgba(255, 255, 255, .8);
+        @include br(10px);
+
+        &:before {
+          content: '';
+          @include pos(a);
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          @include br(10px);
+          box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+        }
+
+        img {
+          width: 40px;
+          @include pos(a);
+          right: 100px;
+          top: 30px;
+        }
+
+        @include pos(r);
+        line-height: 50px;
+        margin: 20px 0;
+        @include br(10px);
+        font-size: 32px;
+        padding: 20px;
+        box-sizing: border-box;
+
+        &.active {
+          background: #8ed593;
+          color: #fff;
+          border: none;
+        }
+
+        &.error {
+          background: #fc6667;
+          color: #fff;
+          border: none;
+        }
+
+      }
+
+      .zmiti-dangjian-submit-btn {
+        width: 100%;
+        height: 70px;
+        @include br(10px);
+        text-align: center;
+        color: #fff;
+        background: #b58f4e;
+        line-height: 70px;
+        font-size: 40px;
+        border: 1px solid #fff;
+        margin-top: 40px;
+        @include transition(.1s);
+
+        &.active {
+          @include transform(translate3d(0, 3px, 0) scale(.99));
+        }
+
+      }
+
+    }
+
+  }
+
+  .zmiti-dangjian-result-page {
+    &>div {
+      width: 100%;
+      @include pos(a);
+      left: 0;
+      top: 0;
+      padding-bottom: 20px;
+    }
+
+    @include transition(.3s);
+    @include transform(translate3d($viewW, 0, 0) scale(.8));
+    background: rgba(255, 255, 255, .8);
+    z-index: 5000;
+
+    span {
+      color: #d32d32;
+    }
+
+    &.active {
+      @include transform(translate3d(0, 0, 0));
+    }
+
+    .zmiti-copyright {
+      color: #fff;
+      font-size: 32px;
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    .zmiti-dangjian-score-C {
+      width: 90%;
+      margin: 150px auto 50px;
+      background: #f1f0c0;
+      border: 1px solid #000;
+      text-align: center;
+      padding: 150px 40px 40px;
+      box-sizing: border-box;
+      @include br(10px);
+      font-size: 34px;
+      color: #d32d32;
+      @include pos(r);
+
+      .zmiti-dangjian-score {
+        font-family: Georgia;
+        color: #b58f4e;
+        font-size: 80px;
+        text-align: center;
+        @include pos(a);
+        $size: 220px;
+        width: $size;
+        height: $size;
+        @include br(50%);
+        top: -$size /2;
+        left: 50%;
+        margin-left: -$size /2;
+        background: #f1f0c0;
+        line-height: $size - 30;
+
+        svg {
+          @include pos(a);
+          left: 0;
+        }
+
+      }
+
+      div:last-of-type {
+        span {
+          color: #b58f4e;
+        }
+
+      }
+
+    }
+
+    .zmiti-share-btns {
+      width: 90%;
+      height: 70px;
+      @include displayBox(horizontal);
+      margin: 20px auto 40px;
+    }
+
+    .zmiti-dangjian-result-btn, .zmiti-dangjian-result-btn1 {
+      @include pos(r);
+      width: 90%;
+      height: 70px;
+      line-height: 70px;
+      background: #f1f0c0;
+
+      &:before {
+        content: "";
+        @include pos(a);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+      }
+
+      margin:0px auto;
+
+      img {
+        width: 30px;
+        vertical-align: middle;
+        @include pos(r);
+        top: -4px;
+      }
+
+      color: #fff;
+      @include displayBox(horizontal);
+      @include br(10px);
+
+      span {
+        display: block;
+        font-size: 34px;
+      }
+
+    }
+
+    .zmiti-dangjian-result-btn1 {
+      width: 90% !important;
+
+      span {
+        margin: 0 20px;
+      }
+
+    }
+
+    .zmiti-dangjian-result-btn {
+      -webkit-box-flex: 1;
+      margin: 0px auto;
+      width: 100%;
+
+      span {
+        margin: 0 10px;
+      }
+
+    }
+
+  }
+
+  .zmiti-team1 {
+    height: 0;
+  }
+
+  .zmiti-team {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+}

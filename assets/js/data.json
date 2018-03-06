@@ -1,0 +1,649 @@
+{
+	"question": [{
+		"title": "五年来，我国经济实力跃上新台阶。国内生产总值从54万亿元增加到82.7万亿元，年均增长＿＿。",
+		"img": "",
+		"score": 1,
+		"answer": [{
+			"content": "6.9%",
+			"isRight": false
+		}, {
+			"content": "7.1%",
+			"isRight": true
+		}],
+		"id": "8ySKDGKd",
+		"isMultiselect": false
+	}, {
+		"img": "",
+		"title": "五年来，我国经济结构出现重大变革。消费贡献率由54.9%提高到58.8%，＿＿比重从45.3%上升到51.6%，成为经济增长主动力。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "服务业",
+			"isRight": true
+		}, {
+			"content": "制造业",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，创新驱动发展成果丰硕。高铁网络、电子商务、＿＿、共享经济等引领世界潮流。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "大飞机 ",
+			"isRight": false
+		}, {
+			"content": "移动支付",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，人民生活持续改善。脱贫攻坚取得决定性进展，贫困人口减少＿＿多万，易地扶贫搬迁830万人，贫困发生率由10.2%下降到3.1%。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "1300",
+			"isRight": false
+		}, {
+			"content": "6800",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，居民收入年均增长7.4%、＿＿经济增速，形成世界上人口最多的中等收入群体。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "超过",
+			"isRight": true
+		}, {
+			"content": "追平 ",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "经过艰辛努力，我们顶住了经济下行压力、避免了“硬着陆”，保持了经济＿＿增长，促进了结构优化，经济长期向好的基本面不断巩固和发展。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "高速",
+			"isRight": false
+		}, {
+			"content": "中高速",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，在淘汰水泥、平板玻璃等落后产能基础上，以钢铁、煤炭等行业为重点加大去产能力度，中央财政安排＿＿专项奖补资金予以支持，用于分流职工安置。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "1000亿元 ",
+			"isRight": true
+		}, {
+			"content": "800亿元",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，高速铁路运营里程从9000多公里增加到2万5千公里、占世界＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "三分之一",
+			"isRight": false
+		}, {
+			"content": "三分之二",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，深入开展大众创业、万众创新，实施普惠性支持政策，完善孵化体系。各类市场主体达到＿＿户，五年增加70%以上。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "8000多万",
+			"isRight": false
+		}, {
+			"content": "9800多万",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，倡导和推动共建“一带一路”，发起创办＿＿，设立丝路基金，一批重大互联互通、经贸合作项目落地。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "亚洲开发银行",
+			"isRight": false
+		}, {
+			"content": "亚投行",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，坚持教育优先发展，财政性教育经费占国内生产总值比例持续超过＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "5%",
+			"isRight": false
+		}, {
+			"content": "4%",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "五年来，重拳整治大气污染，重点地区细颗粒物（PM2.5）平均浓度下降＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "30%以上",
+			"isRight": true
+		}, {
+			"content": "20%以上 ",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "我们清醒认识到，我国仍处于并将长期处于社会主义初级阶段，仍是世界最大发展中国家，发展＿＿的一些突出问题尚未解决。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "不平衡不充分 ",
+			"isRight": true
+		}, {
+			"content": "落后",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "今年是全面贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会、实施＿＿规划承上启下的关键一年。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "“十三五” ",
+			"isRight": true
+		}, {
+			"content": "“十二五”  ",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "做好今年工作，要认真贯彻习近平新时代中国特色社会主义经济思想，坚持＿＿工作总基调，把＿＿作为一个整体来把握。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "又好又快  好和快",
+			"isRight": false
+		}, {
+			"content": "稳中求进   稳和进  ",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强在作政府工作报告时，明确了2018年发展主要预期目标：国内生产总值增长＿＿左右。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "6.5%",
+			"isRight": true
+		}, {
+			"content": "7%",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "今年，城镇新增就业1100万人以上，__5.5%以内。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "城镇登记失业率 ",
+			"isRight": false
+		}, {
+			"content": "城镇调查失业率 ",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "今年，＿＿的财政政策取向不变，要聚力增效。＿＿的货币政策保持中性，要松紧适度。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "宽松  平稳",
+			"isRight": false
+		}, {
+			"content": "积极   稳健",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "今年全国财政支出＿＿万亿元，支出规模进一步加大。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "20",
+			"isRight": false
+		}, {
+			"content": "21",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "坚持把发展经济着力点放在＿＿经济上，继续抓好“三去一降一补”，大力简政减税减费，不断优化营商环境，进一步激发市场主体活力，提升经济发展质量。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "虚拟",
+			"isRight": false
+		}, {
+			"content": "实体",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日作政府工作报告时明确，明显降低家庭宽带、企业宽带和专线使用费，取消＿＿，移动网络流量资费年内至少降低30%。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "长途“漫游”费",
+			"isRight": false
+		}, {
+			"content": "流量“漫游”费",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "推动集成电路、＿＿移动通信、飞机发动机、新能源汽车、新材料等产业发展，实施重大短板装备专项工程，发展工业互联网平台，创建“中国制造2025”示范区。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "第四代",
+			"isRight": false
+		}, {
+			"content": "第五代",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "今年再压减钢铁产能＿＿左右，退出煤炭产能＿＿左右，淘汰关停不达标的30万千瓦以下煤电机组。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "3000万吨    1.5亿吨",
+			"isRight": true
+		}, {
+			"content": "1.5亿吨     3000万吨",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "工程建设项目审批时间再压减一半。深入推进“互联网+政务服务”，使更多事项在网上办理，必须到现场办的也要力争做到“只进一扇门”、“＿＿”。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "最多跑一次",
+			"isRight": true
+		}, {
+			"content": "最多跑两次",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "今年再为企业和个人减税＿＿多亿元，促进实体经济转型升级，着力激发市场活力和社会创造力。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "8000",
+			"isRight": true
+		}, {
+			"content": "5000",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "国家科技投入要向＿＿领域倾斜，加强雾霾治理、癌症等重大疾病防治攻关，使科技更好造福人民。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "经济",
+			"isRight": false
+		}, {
+			"content": "民生",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "深化＿＿关键领域改革。以改革开放40周年为重要契机，推动改革取得新突破，不断解放和发展社会生产力。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "基础性",
+			"isRight": true
+		}, {
+			"content": "战略性",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "构建＿＿新型政商关系，健全企业家参与涉企政策制定机制。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "亲诚",
+			"isRight": false
+		}, {
+			"content": "亲清",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "要用有力的＿＿保护、顺畅的＿＿流动，让市场活力和社会创造力竞相迸发。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "产权    要素",
+			"isRight": true
+		}, {
+			"content": "要素    产权",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "改革完善金融服务体系，支持金融机构扩展普惠金融业务，规范发展地方性中小金融机构，着力解决＿＿融资难、融资贵问题。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "大型企业",
+			"isRight": false
+		}, {
+			"content": "小微企业",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "深化养老保险制度改革，建立企业职工基本养老保险基金＿＿调剂制度。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "中央",
+			"isRight": false
+		}, {
+			"content": "地方",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "改革完善生态环境管理制度，加强自然生态空间＿＿管制，推行生态环境损害赔偿制度，完善生态补偿机制，以更加有效的制度保护生态环境。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "规划",
+			"isRight": false
+		}, {
+			"content": "用途",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日在作政府工作报告时表示，坚决打好三大攻坚战。三大攻坚战指的是：重大风险防范化解、精准脱贫和＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "污染防治",
+			"isRight": true
+		}, {
+			"content": "决胜小康",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "加大精准脱贫力度。今年再减少农村贫困人口＿＿以上，完成易地扶贫搬迁280万人。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "1000万",
+			"isRight": true
+		}, {
+			"content": "1300万 ",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "大力实施＿＿。科学制定规划，健全城乡融合发展体制机制，依靠改革创新壮大乡村发展新动能。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "城乡发展一体化 ",
+			"isRight": false
+		}, {
+			"content": "乡村振兴战略",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "改善供水、供电、信息等基础设施，新建改建农村公路20万公里。稳步开展农村人居环境整治＿＿，推进“厕所革命”。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "三年行动",
+			"isRight": true
+		}, {
+			"content": "五年行动",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "提高新型城镇化质量。今年再进城落户_______人，加快农业转移人口市民化。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "1000万",
+			"isRight": false
+		}, {
+			"content": "1200万",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "将新能源汽车车辆购置税优惠政策再延长＿＿，＿＿取消二手车限迁政策。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "一年    部分",
+			"isRight": false
+		}, {
+			"content": "三年    全面",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "推动形成全面开放新格局。进一步拓展开放范围和层次，完善开放结构布局和体制机制，以＿＿开放推动高质量发展。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "高水平",
+			"isRight": true
+		}, {
+			"content": "全方位",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "加强与国际通行经贸规则对接，建设国际一流营商环境。全面放开＿＿，扩大电信、医疗、教育、养老、新能源汽车等领域开放。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "高技术制造业",
+			"isRight": false
+		}, {
+			"content": "一般制造业",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "提高保障和改善民生水平。要在发展基础上多办利民实事、多解民生难事，兜牢民生底线，不断提升人民群众的获得感、幸福感、＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "满足感",
+			"isRight": false
+		}, {
+			"content": "安全感",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日作政府工作报告时明确，提高＿＿起征点，增加子女教育、大病医疗等专项费用扣除，合理减负，鼓励人民群众通过劳动增加收入、迈向富裕。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "企业所得税",
+			"isRight": false
+		}, {
+			"content": "个人所得税",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "切实降低农村学生辍学率，抓紧消除城镇“大班额”，着力解决中小学生＿＿负担重问题。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "课外",
+			"isRight": true
+		}, {
+			"content": "考试",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "提高基本医保和大病保险保障水平，居民基本医保人均财政补助标准再增加＿＿，一半用于大病保险。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "30元",
+			"isRight": false
+		}, {
+			"content": "40元",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "推进平安中国建设，严密防范和坚决打击暴力恐怖活动，依法开展＿＿专项斗争。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "扫黑除恶",
+			"isRight": true
+		}, {
+			"content": "打黑除恶",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "优化政府机构设置和职能配置，深化机构改革，形成职责明确、依法行政的政府治理体系，增强政府公信力和＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "影响力",
+			"isRight": false
+		}, {
+			"content": "执行力",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "我们要以党在新时代的＿＿为引领，牢固确立习近平强军思想在国防和军队建设中的指导地位，坚定不移走中国特色强军之路，全面推进练兵备战工作，坚决有力维护国家主权、安全、发展利益。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "兴军目标",
+			"isRight": false
+		}, {
+			"content": "强军目标",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日在作政府工作报告时表示，支持香港、澳门＿＿，深化内地与港澳地区交流合作。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "融入国家发展大局",
+			"isRight": true
+		}, {
+			"content": "立足“两制”特色优势",
+			"isRight": false
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日在作政府工作报告时表示，坚决维护国家主权和领土完整，＿＿任何“台独”分裂图谋和行径。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "反对",
+			"isRight": false
+		}, {
+			"content": "绝不容忍",
+			"isRight": true
+		}]
+	}, {
+		"img": "",
+		"title": "国务院总理李克强3月5日在作政府工作报告时说，我们将始终不渝走和平发展道路，推动构建＿＿。",
+		"score": 1,
+		"isMultiselect": false,
+		"answer": [{
+			"content": "新型国际关系",
+			"isRight": true
+		}, {
+			"content": "新型大国关系",
+			"isRight": false
+		}]
+	}],
+	"theme": "DANGJIAN",
+	"duration": 36000,
+	"title": "@所有人:来自新时代的一份考卷，请查收",
+	"wxappid": "wx5ec3d35069383211",
+	"wxappsecret": "d94ea41d9cd2ba03c7cab5fc0e212cec",
+	"worksid": "1359526489",
+	"qrcodeurl": "http://api.zmiti.com/zmiti_ele/company/mafazhan/works/1359526489/assets/images/qrcode1.png",
+	"wxauthurl": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx5ec3d35069383211&redirect_uri=http%3A%2F%2Fapi.zmiti.com%2Fzmiti_ele%2Fcompany%2Fmafazhan%2Fworks%2F1359526489%2F&response_type=code&scope=snsapi_userinfo&state=state#wechat_redirect",
+	"bgSound": "",
+	"questionType": "single",
+	"totalScore": 50,
+	"level": [{
+		"score": 50,
+		"name": "特级"
+	}, {
+		"score": 35,
+		"name": "高级"
+	}, {
+		"score": 20,
+		"name": "中级"
+	}, {
+		"score": 5,
+		"name": "初级"
+	}],
+	"isMultiselect": false,
+	"showLevel": true,
+	"indexPage": "./assets/images/index-bg1.jpg",
+	"loadingImg": [
+		"./assets/images/300.png",
+		"./assets/images/title1.png",
+		"./assets/images/zmiti.png",
+		"./assets/images/index-bg1.jpg",
+		"./assets/images/bg1.jpg",
+		"./assets/images/header-bg.png",
+		"./assets/images/watch.png",
+		"./assets/images/logo.png",
+		"./assets/images/refresh.png",
+		"./assets/images/begin-test1.png",
+		"./assets/images/share-ico.png",
+		"./assets/images/arron1.png"
+	],
+	"shareTitle": "您答对了（{score}）道题，获得“{level}”称号",
+	"shareDesc": "您答对了（{score}）道题，获得“{level}”称号",
+	"isUseWx": false,
+	"isShowUseTime": true
+}

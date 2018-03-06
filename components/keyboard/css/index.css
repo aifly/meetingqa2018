@@ -1,0 +1,73 @@
+/*.ant-btn:focus, .ant-btn:hover,.ant-input:focus, .ant-input:hover {
+    background-color: #fff;
+    border-color: #bf1616;
+    box-shadow: 0 0 0 2px rgba(191, 22, 22, 0.1);
+}*/
+.lt-full {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden; }
+
+.zmiti-keyboard-main-ui {
+  background: #1e2225;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 640px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  height: 40vh;
+  color: #fff;
+  z-index: 10000; }
+  .zmiti-keyboard-main-ui.show {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  .zmiti-keyboard-main-ui > section {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: horizontal; }
+    .zmiti-keyboard-main-ui > section aside {
+      width: 213px;
+      box-sizing: border-box;
+      text-align: center;
+      height: 10vh;
+      font-size: 40px;
+      line-height: 10vh;
+      font-family: Georgia;
+      position: relative;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .zmiti-keyboard-main-ui > section aside:before, .zmiti-keyboard-main-ui > section aside:after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background: #fff; }
+      .zmiti-keyboard-main-ui > section aside:after {
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0; }
+      .zmiti-keyboard-main-ui > section aside.active {
+        background: #f66; }
+    .zmiti-keyboard-main-ui > section:last-of-type {
+      -webkit-box-flex: 1; }
+      .zmiti-keyboard-main-ui > section:last-of-type aside:first-of-type {
+        position: relative; }
+        .zmiti-keyboard-main-ui > section:last-of-type aside:first-of-type span {
+          left: 0;
+          width: 100%;
+          text-align: center;
+          position: absolute; }
+      .zmiti-keyboard-main-ui > section:last-of-type img {
+        width: 60px; }
+
+/*# sourceMappingURL=index.css.map */

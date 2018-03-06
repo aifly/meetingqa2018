@@ -1,0 +1,120 @@
+﻿@import "../../../assets/css/base.scss";
+$viewW: 640px;
+
+.zmiti-result-main-ui {
+  @include transform(translate3d($viewW, 0, 0));
+  @include transition(.4s);
+  $height: 70px;
+
+  &.show {
+    @include transform(translate3d(0, 0, 0));
+    z-index: 115001;
+  }
+
+  .zmiti-dangjian-back-btn {
+    width: 100%;
+    height: $height;
+    background: #f1f0c0;
+    text-align: center;
+    line-height: $height;
+    color: #d32d32;
+    font-size: 34px;
+    @include br(10px);
+    @include transition(.1s);
+
+    &.active {
+      @include transform(translate3d(0, 3px, 0) scale(.99));
+    }
+
+  }
+
+  .zmiti-dangjian-result {
+    z-index: 100;
+
+    .zmiti-dangjian-reuslt-C {
+      width: $viewW - 50;
+      margin: 30px auto 0;
+
+      .zmiti-dangjian-header {
+        @include br(10px);
+        width: 100%;
+        height: $height;
+        background: rgba(255, 102, 102, .7);
+        font-size: 34px;
+        color: #fff;
+        line-height: $height;
+        text-align: center;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+    }
+
+    .zmiti-dangjian-q-list-C {
+      border: 1px solid #000;
+      @include br(10px);
+      @include pos(r);
+      top: -4px;
+    }
+
+    .zmiti-dangjian-answer-C {
+      padding: 30px 0;
+      background: rgba(255, 255, 255, .8);
+      @include br(10px);
+      color: #777;
+      font-size: 30px;
+
+      article {
+        margin: 10px 0;
+        line-height: 50px;
+        padding: 0 20px;
+      }
+
+      .zmiti-dangjian-result-a-item {
+        margin: 10px 0;
+        padding: 0 50px;
+        box-sizing: border-box;
+        @include pos(r);
+
+        span {
+          padding: 10px 50px 10px 20px;
+          text-align: left;
+          @include br(30px);
+        }
+
+        &.active {
+          span {
+            background: #f1f0c0;
+            color: #d32d32;
+            @include br(10px);
+            display: inline-block;
+          }
+
+        }
+
+        &.right {
+          &:after {
+            @include pos(a);
+            content: ' √';
+            color: green;
+            font-weight: bold;
+            bottom: 4px;
+          }
+
+        }
+
+        &.error {
+          &:after {
+            content: ' √';
+            color: green;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

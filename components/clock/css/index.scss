@@ -1,0 +1,33 @@
+@import "../../../assets/css/base.scss";
+
+
+.zmiti-clock-main-ui{
+	@include br(50%);
+	$size:6px;
+	border:$size solid #999;
+	@include pos(r);
+	span{
+		@include pos(a);
+		width: $size;
+		height: 40%;
+		top: 10%;
+		left: 50%;
+		margin-left: -$size /2;
+		background: #999;
+		&:last-of-type{
+			height: 44%;
+			top:6%;
+			@include transformOrigin(center bottom);
+			@include transform(rotate(130deg));
+			&.active{
+				@include transform(rotate(0));
+				@include animation(rotate linear 60s infinite);
+			}
+		}
+	}
+	
+}
+
+@-webkit-keyframes rotate{
+	to{-webkit-transform:rotate(360deg)}
+}

@@ -1,0 +1,218 @@
+{
+    "shareTitle": "应知应会小测验",
+    "shareDesc": "推进“两学一做”学习教育常态化制度化，党总支喊你来答题",
+    "shareImg": "http://h5.zmiti.com/public/qa2/assets/images/300.jpg",
+    "background": "",
+    "bgSound": "",
+    "myHeadImg": "http://api.zmiti.com/zmiti_ele/company/yangjw/material/20170512/e86045dbe0675cfac24979c60dcabd1f.png",
+    "groupName": "",
+    "title": "应知应会小测验",
+    "indexBg": "./assets/images/bg.png",
+    "theme": "DANGJIAN",
+    "duration": "360",
+    "wxappid": "wxfacf4a639d9e3bcc",
+    "wxappsecret": "149cdef95c99ff7cab523d8beca86080",
+    "worksid": "123456789",
+    "question": [{
+        "img": "",
+        "title": "五年来，我国经济实力跃上新台阶。国内生产总值从54万亿元增加到82.7万亿元，年均增长＿＿。",
+        "score": 10,
+        "isMultiselect": false,
+        "answer": [{
+                "content": "6.9%",
+                "isRight": false
+            }, {
+                "content": "7.1%",
+                "isRight": true
+            }, {
+                "content": "定期召开民主生活会 ",
+                "isRight": true
+            }, {
+                "content": "按时上好党课",
+                "isRight": false
+            }
+
+        ]
+    }, {
+        "img": "",
+        "title": "下列哪一项是“两学一做”学习教育内容？",
+        "score": 10,
+        "isMultiselect": false,
+        "answer": [{
+                "content": "做政治上的明白人",
+                "isRight": false
+            }, {
+                "content": "学习贯彻习近平总书记系列重要讲话精神",
+                "isRight": true
+            }, {
+                "content": "学习新业务新知识",
+                "isRight": false
+            }, {
+                "content": "做合格干部",
+                "isRight": false
+            }
+
+        ]
+    }, {
+        "img": "",
+        "title": "关于监督执纪的“四种形态”哪个提法不准确？",
+        "score": 10,
+        "isMultiselect": false,
+        "answer": [{
+                "content": "党纪轻处分和组织处理要成为大多数",
+                "isRight": false
+            }, {
+                "content": "对严重违纪的重处分、作出重大职务调整应当是少数",
+                "isRight": false
+            }, {
+                "content": "严重违纪涉嫌违法立案审查的只能是极极少数",
+                "isRight": false
+            }, {
+                "content": "让咬耳扯袖、红脸出汗成为个别情况",
+                "isRight": true
+            }
+
+        ]
+    }, {
+        "img": "",
+        "score": 10,
+        "isMultiselect": false,
+        "title": "下述哪一项属于党风廉政建设“两个责任”？",
+        "answer": [{
+            "content": "党委主体责任",
+            "isRight": true
+        }, {
+            "content": "党员监督责任",
+            "isRight": false
+        }, {
+            "content": "纪委主体责任",
+            "isRight": false
+        }, {
+            "content": "纪委连带责任",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "score": 10,
+        "title": "关于党风廉政建设“一岗双责”不准确的提法是？",
+        "isMultiselect": false,
+        "answer": [{
+            "content": "每位干部既要干事，还不能出事",
+            "isRight": false
+        }, {
+            "content": "一手抓发展，一手抓廉政",
+            "isRight": false
+        }, {
+            "content": "两手抓、两手都要硬",
+            "isRight": false
+        }, {
+            "content": "一手抓稳定，一手抓建设",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "score": 10,
+        "isMultiselect": false,
+        "title": "关于“三重一大”制度中表述不准确的是？",
+        "answer": [{
+            "content": "发展党员要经集体讨论做出决定",
+            "isRight": true
+        }, {
+            "content": "重大问题决策要经集体讨论做出决定",
+            "isRight": false
+        }, {
+            "content": "重大项目投资决策要经集体讨论做出决定",
+            "isRight": false
+        }, {
+            "content": "大额资金使用要经集体讨论做出决定",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "score": 10,
+        "isMultiselect": false,
+        "title": "习近平总书记提出了党的新闻舆论工作48字方针，下列表述中不准确的是哪一项？",
+        "answer": [{
+            "content": "高举旗帜、引领导向",
+            "isRight": false
+        }, {
+            "content": "成风化人、凝心聚力",
+            "isRight": false
+        }, {
+            "content": "深入基层、调查研究",
+            "isRight": true
+        }, {
+            "content": "联接中外、沟通世界",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "score": 10,
+        "isMultiselect": false,
+        "title": "“两学一做”要求增强党员干部的四个意识，具体是指？",
+        "answer": [{
+            "content": "政治意识、大局意识、核心意识、看齐意识",
+            "isRight": true
+        }, {
+            "content": "政治意识、发展意识、核心意识、看齐意识",
+            "isRight": false
+        }, {
+            "content": "政治意识、创新意识、核心意识、责任意识",
+            "isRight": false
+        }, {
+            "content": "政治意识、大局意识、群众意识、看齐意识",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "score": 10,
+        "title": "对“四个全面”表述不准确的是？",
+        "isMultiselect": false,
+        "answer": [{
+            "content": "全面从严治党",
+            "isRight": false
+        }, {
+            "content": "全面发展经济",
+            "isRight": true
+        }, {
+            "content": "全面依法治国",
+            "isRight": false
+        }, {
+            "content": "全面深化改革",
+            "isRight": false
+        }, {
+            "content": "全面建成小康社会",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "isMultiselect": false,
+        "score": 10,
+        "title": "新华精神不包括下列哪一项？",
+        "answer": [{
+            "content": "实事求是",
+            "isRight": false
+        }, {
+            "content": "开拓创新",
+            "isRight": false
+        }, {
+            "content": "耳目喉舌",
+            "isRight": true
+        }, {
+            "content": "对党忠诚",
+            "isRight": false
+        }, {
+            "content": "勿忘人民",
+            "isRight": false
+        }]
+    }],
+    "loadingImg": [
+        "./assets/images/zmiti.png",
+        "./assets/images/bg.png",
+        "./assets/images/watch.png",
+        "./assets/images/logo.png",
+        "./assets/images/refresh.png",
+        "./assets/images/share-ico.png",
+        "./assets/images/arron1.png"
+    ]
+}
