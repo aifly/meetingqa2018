@@ -242,10 +242,10 @@
 		"isMultiselect": false,
 		"answer": [{
 			"content": "中央",
-			"isRight": false
+			"isRight": true
 		}, {
 			"content": "地方",
-			"isRight": true
+			"isRight": false
 		}]
 	}, {
 		"img": "",
